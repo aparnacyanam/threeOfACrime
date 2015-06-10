@@ -11,6 +11,7 @@ print "Players are :" , num_players
 #perform a check for num of players to be either 2 or 3
 while(num_players<2 or num_players>3):
     num_players = input("Please enter either 2 or 3 number of players:")
+    num_players=int(num_players)
     print "Players are :" , num_players
 
 if num_players==2:
